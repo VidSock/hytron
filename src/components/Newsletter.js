@@ -104,7 +104,7 @@ export default class Newsletter extends React.Component {
                 <input type="submit" value="Sign Up" className="special" style={{width: '70%', margin: '0', padding: '2rem 0', verticalAlign: 'center',}} /> <FaEnvelope style={{position: 'relative', top: '6px', left: '-30px', color: '#fff', fontSize: '190%',}} />
                 
                 </div>
-                <div className="font" style={{fontSize: '100%', padding: '20px 3%', textAlign: 'center',}}> <input type="checkbox" name={'consent'} required={true} style={{transform: 'scale(2)', margin: '0 10px 0 0', background:'#ff0000', color:'#ff0000',}} /> I want to participate by email or text.</div>
+                <div className="font" style={{fontSize: '100%', padding: '20px 3%', textAlign: 'center',}}> <label htmlFor={'consent'}><input type="checkbox" name={'consent'} required={true} style={{transform: 'scale(2)', margin: '0 10px 0 0', background:'#ff0000', color:'#ff0000',}} /> I want to participate by email or text.</label></div>
                 
 <div style={{fontSize: '80%', padding: '0px 3%', textAlign: 'center',}}><a style={{textAlign: 'center', paddingTop: '0px', paddingBottom: '0', textDecoration: 'underline',}} href="/privacy">We value your privacy (no spam!) </a>
                 </div>
