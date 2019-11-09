@@ -5,7 +5,7 @@ import { FaTimesCircle } from 'react-icons/fa'
 
 const CustomBox = styled.div`
 *, *:before, *:after { box-sizing: border-box; }
-body { height: 100vh; background: #ccc; }
+// body { height: 100vh;}
 
 .modal-container {
 /*   margin: 60px auto; */
@@ -27,7 +27,7 @@ body { height: 100vh; background: #ccc; }
     text-align: center;
     box-shadow: 0 5px 5px -5px #333;  
     transition: background 0.3s ease-in;
-    &:hover { background: #DB2600; cursor:pointer; 
+    &:hover { background: #000; cursor:pointer; 
     }
   }
   
@@ -45,7 +45,7 @@ body { height: 100vh; background: #ccc; }
   .modal-close {
 	  position:absolute;
 	  top:25px;
-	  right:105px;
+	  right:115px;
 	  z-index:5;
 	  
     color: #999;
@@ -66,7 +66,7 @@ body { height: 100vh; background: #ccc; }
     cursor: pointer;
     bottom: 20px;
     right: 30px;
-    background: #DB2600;
+    background: $primary;
     color: #fff;
     width: 50px;
     border-radius: 2px;
@@ -74,7 +74,7 @@ body { height: 100vh; background: #ccc; }
     height: 32px;
     padding-top: 9px;
     font-weight: normal;
-    &:hover { color: #fff; background: #FF0000;
+    &:hover { color: #fff; background: #2a1010;
     }
   }
   
@@ -97,7 +97,7 @@ body { height: 100vh; background: #ccc; }
     &:checked ~ .modal-content {
       opacity: 1;
       background-color: transparent;
-    max-width: 700px;
+    max-width: 800px;
     width: 100vw;
       height: auto;
       padding: 0;
@@ -107,8 +107,8 @@ body { height: 100vh; background: #ccc; }
     justify-content:center;
 	margin:0 auto;
       top: 20px;
-      left:7%;
-      right:7%;
+      left:1%;
+      right:1%;
    
       border-radius: 4px;
       z-index: 4;
@@ -132,7 +132,7 @@ body { height: 100vh; background: #ccc; }
 	   }
 	  }
 	    
-	     #popcontact-form{padding-left:1rem;}
+	     
 	     
 	     .modal-close{top:10px !important; right: 20px !important; color: #999 !important;}
 	     

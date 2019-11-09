@@ -80,7 +80,7 @@ const Navbar = class extends React.Component {
               checked={theme === 'dark'}
             />{' '}
             
-          <label htmlFor="themeSlide"></label></div>
+          <label htmlFor="themeSlide" style={{color:'#222', textAlign:'center', padding:'0',}}>Theme</label></div>
         )}
       </ThemeToggler></div>
       

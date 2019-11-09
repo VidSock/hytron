@@ -74,7 +74,7 @@ export default class Contact extends React.Component {
                 onSubmit={this.handleSubmit}
                 id="contact-inc-form"
               >
-                <h3 style={{padding: '.5rem 0', textAlign: 'center', fontSize: '150%',}}>Request Quote<br /><span style={{fontSize: '80%', display: 'none',}}>Please fill out the form below:</span></h3>
+                <h3 style={{padding: '.5rem 0', textAlign: 'center', fontSize: '150%',}}>Contact Us<br /><span style={{fontSize: '80%', display: 'none',}}>Please fill out the form below:</span></h3>
                 {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
                 
                 <div hidden>
@@ -109,7 +109,7 @@ export default class Contact extends React.Component {
                     />
                     <label htmlFor="attachment" style={{padding: '0', margin: '0',}}>Upload File:</label>
                     <div className="upload" style={{ border: '0px solid', padding: '12px', borderRadius: '5px', boxShadow: '0px 0px 1px 1px #999', color: '#999',}}>
-                    <label htmlFor="attachment" style={{padding: '0', margin: '0 2.5% 0 0', float: 'left', width: '58%',}}>
+                    <label htmlFor="attachment" style={{padding: '0', margin: '0 2.5% 0 0', float: 'left', width: '58%', color: '#333',}}>
                     ZIP files preferred
                     <input
                         className="file-input hidden"
@@ -120,7 +120,7 @@ export default class Contact extends React.Component {
                       />
                       </label>
                       
-<label className="upload" htmlFor="attachment" style={{background: '#999', width: '48%', justifyContent: 'center', color: '#fff', padding: '5px 15px', textAlign: 'center', borderRadius:'4px', margin: '0 auto', fontSize: '70%', whiteSpace: 'nowrap',}}  >Select File</label></div>
+<label className="upload" htmlFor="attachment" style={{background: '#eee', width: '48%', justifyContent: 'center', color: '#333', padding: '5px 15px', textAlign: 'center', borderRadius:'4px', margin: '0 auto', fontSize: '70%', whiteSpace: 'nowrap',}}  >Select File</label></div>
                 </div>
 
                 <div className="field half right">
