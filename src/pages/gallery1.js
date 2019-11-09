@@ -7,7 +7,7 @@ import { graphql, useStaticQuery } from 'gatsby'
 
 
 
-import Gallery from '../components/Gallery'
+import Gallery1 from '../components/Gallery'
 
 
 const gal1Query = graphql`
@@ -39,7 +39,7 @@ const Gal1Page = () => {
     <div className="container" style={{padding:'120px 6% 0 6%',}}>
       <h1>Browse Our Work:</h1>
       </div>
-      <Gallery
+      <Gallery1
         photos={data.allFile.edges}
       />
       
