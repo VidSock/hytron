@@ -24,11 +24,9 @@ const CustomBox = styled.div`
   #installer{display: none !important;}
 }
 	
-/*
 @media (hover: hover) {
 #installer{display: none !important;}
 }
-*/
 	
 
 
