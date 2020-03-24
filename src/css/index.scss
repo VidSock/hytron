@@ -625,7 +625,7 @@ input:matches([type="checkbox"]){color:#ff0000 !important;}
 	.header .menu {
   margin-top:0;
 }
-	.header {display: flex; justify-content: space-around;}
+	.header {display: flex; justify-content: space-between;}
 	.header ul{display: flex; justify-content: space-around !important;}
    [aria-current].logolink {
    background:none;

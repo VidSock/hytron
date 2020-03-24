@@ -9,7 +9,7 @@ const Consent = () => (
 
 
 <CookieConsent
-	debug={true}
+	debug={false}
 	location="bottom"
 	style={{ background: "#222", zIndex:'0', padding:'0% 3% 0% 3%', opacity:'.8', }}
 	enableDeclineButton={false}

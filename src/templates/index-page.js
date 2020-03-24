@@ -250,7 +250,7 @@ export const IndexPageTemplate = ({
     
         <div
       className="full-width-image margin-top-0"
-      style={{display: 'block',
+      style={{display: 'none',
 	      position: 'relative',
         backgroundImage: `url(${
           !!image2.childImageSharp ? image2.childImageSharp.fluid.src : image2
@@ -381,7 +381,7 @@ export const IndexPageTemplate = ({
     
     <div
       className="full-width-image margin-top-0"
-      style={{display: 'block',
+      style={{display: 'none',
 	      position: 'relative',
         backgroundImage: `url(${
           !!image3.childImageSharp ? image3.childImageSharp.fluid.src : image
