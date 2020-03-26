@@ -27,7 +27,13 @@ const CustomBox = styled.div`
     text-align: center;
     box-shadow: 0 5px 5px -5px #333;  
     transition: background 0.3s ease-in;
-    &:hover { background: #000; cursor:pointer; 
+    &:hover { 
+    background: #000; cursor:pointer;
+    background: rgb(126,209,234); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, rgba(126,209,234,1) 0%, rgba(65,145,186,1) 40%, rgba(3,73,127,1) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(126,209,234,1) 0%,rgba(65,145,186,1) 40%,rgba(3,73,127,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, rgba(126,209,234,1) 0%,rgba(65,145,186,1) 40%,rgba(3,73,127,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7ed1ea', endColorstr='#03497f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     }
   }
   
@@ -44,8 +50,8 @@ const CustomBox = styled.div`
   
   .modal-close {
 	  position:absolute;
-	  top:25px;
-	  right:115px;
+	  top:15px;
+	  right:25px;
 	  z-index:5;
 	  
     color: #999;
@@ -83,7 +89,7 @@ const CustomBox = styled.div`
     &.active ~ .modal-backdrop,
     &:checked ~ .modal-backdrop {
       background-color: rgba(0, 0, 0, 0.6);
-      width: 100vw;
+      width:100vw;
       height: 100vh;
       position: fixed;
       left: 0;
@@ -97,8 +103,8 @@ const CustomBox = styled.div`
     &:checked ~ .modal-content {
       opacity: 1;
       background-color: transparent;
-    max-width: 800px;
-    width: 100vw;
+    max-width: 700px;
+    width: 90vw;
       height: auto;
       padding: 0;
       position: fixed !important;

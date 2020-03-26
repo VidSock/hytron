@@ -6,116 +6,26 @@ const Privacy = () => (
     <section className="outer section section--gradient">
       <div className="container" style={{padding: '2rem 2rem'}}>
       <h1>Privacy</h1>
-      <h2>
-	Web Site Terms and Conditions of Use<br />
-</h2>
-<h3>
-	1. Terms<br />
-</h3>
-<p>
-	By accessing this web site, you are agreeing to be bound by these<br />
-	web site Terms and Conditions of Use, all applicable laws and regulations,<br />
-	and agree that you are responsible for compliance with any applicable local<br />
-	laws. If you do not agree with any of these terms, you are prohibited from<br />
-	using or accessing this site. The materials contained in this web site are<br />
-	protected by applicable copyright and trade mark law.
-</p>
-<h3>
-	2. Use License<br />
-</h3>
-<ol type="a">
-<li>
-		Permission is granted to temporarily download one copy of the materials<br />
-		(information or software) on the Hytron Manufacturing web site for personal,<br />
-		non-commercial transitory viewing only. This is the grant of a license,<br />
-		not a transfer of title, and under this license you may not:</li>
-		</ol>
-<ol type="i">
-<li>modify or copy the materials;</li>
-<li>use the materials for any commercial purpose, or for any public display (commercial or non-commercial);</li>
-<li>attempt to decompile or reverse engineer any software contained on Hytron Manufacturing&#8217;s web site;</li>
-<li>remove any copyright or other proprietary notations from the materials; or</li>
-<li>transfer the materials to another person or &#8220;mirror&#8221; the materials on any other server.</li>
-</ol>
-
-<ol>
-<li>
-		This license shall automatically terminate if you violate any of these restrictions and may be terminated by Hytron Manufacturing at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.
-	</li>
-</ol>
-<h3>
-	3. Disclaimer<br />
-</h3>
-<ol type="a">
-<li>
-		The materials on Hytron Manufacturing&#8217;s web site are provided &#8220;as is&#8221;. Hytron Manufacturing makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties, including without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights. Further, Hytron Manufacturing does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its Internet web site or otherwise relating to such materials or on any sites linked to this site.
-	</li>
-</ol>
-<h3>
-	4. Limitations<br />
-</h3>
-<p>
-	In no event shall Hytron Manufacturing or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption,) arising out of the use or inability to use the materials on Hytron Manufacturing&#8217;s Internet site, even if Hytron Manufacturing or a Hytron Manufacturing authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.
-</p>
-<h3>
-	5. Revisions and Errata<br />
-</h3>
-<p>
-	The materials appearing on Hytron Manufacturing&#8217;s web site could include technical, typographical, or photographic errors. Hytron Manufacturing does not warrant that any of the materials on its web site are accurate, complete, or current. Hytron Manufacturing may make changes to the materials contained on its web site at any time without notice. Hytron Manufacturing does not, however, make any commitment to update the materials.
-</p>
-<h3>
-	6. Links<br />
-</h3>
-<p>
-	Hytron Manufacturing has not reviewed all of the sites linked to its Internet web site and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Hytron Manufacturing of the site. Use of any such linked web site is at the user&#8217;s own risk.
-</p>
-<h3>
-	7. Site Terms of Use Modifications<br />
-</h3>
-<p>
-	Hytron Manufacturing may revise these terms of use for its web site at any time without notice. By using this web site you are agreeing to be bound by the then current version of these Terms and Conditions of Use.
-</p>
-<h3>
-	8. Governing Law<br />
-</h3>
-<p>
-	Any claim relating to Hytron Manufacturing&#8217;s web site shall be governed by the laws of the State of California without regard to its conflict of law provisions.
-</p>
-<p>
-	General Terms and Conditions applicable to Use of a Web Site.
-</p>
-<h2>
-	Privacy Policy<br />
-</h2>
-<p>
-	Your privacy is very important to us. Accordingly, we have developed this Policy in order for you to understand how we collect, use, communicate and disclose and make use of personal information. The following outlines our privacy policy.
-</p>
-<ul>
-<li>
-		Before or at the time of collecting personal information, we will identify the purposes for which information is being collected.
-	</li>
-<li>
-		We will collect and use of personal information solely with the objective of fulfilling those purposes specified by us and for other compatible purposes, unless we obtain the consent of the individual concerned or as required by law.
-	</li>
-<li>
-		We will only retain personal information as long as necessary for the fulfillment of those purposes.
-	</li>
-<li>
-		We will collect personal information by lawful and fair means and, where appropriate, with the knowledge or consent of the individual concerned.
-	</li>
-<li>
-		Personal data should be relevant to the purposes for which it is to be used, and, to the extent necessary for those purposes, should be accurate, complete, and up-to-date.
-	</li>
-<li>
-		We will protect personal information by reasonable security safeguards against loss or theft, as well as unauthorized access, disclosure, copying, use or modification.
-	</li>
-<li>
-		We will make readily available to customers information about our policies and practices relating to the management of personal information.
-	</li>
-</ul>
-<p>
-	We are committed to conducting our business in accordance with these principles in order to ensure that the confidentiality of personal information is protected and maintained.</p>
-    </div>
+      
+      <div class="entry-content">
+		<p>Thank you for visiting my web site. This privacy policy tells you how I use personal information collected at this site. Please read this privacy policy before using the site or submitting any personal information. By using the site, you are accepting the practices described in this privacy policy. These practices may be changed, but any changes will be posted and changes will only apply to activities and information on a going forward, not retroactive basis. You are encouraged to review the privacy policy whenever you visit the site to make sure that you understand how any personal information you provide will be used.</p>
+<p>Note: the privacy practices set forth in this privacy policy are for this web site only. If you link to other web sites, please review the privacy policies posted at those sites.</p>
+<h3>Collection of Information</h3>
+<p>We collect personally identifiable information, like names, postal addresses, email addresses, etc., when voluntarily submitted by our visitors. The information you provide is used to fulfill you specific request. This information is only used to fulfill your specific request, unless you give us permission to use it in another manner, for example to add you to one of our mailing lists.</p>
+<h3>Cookie/Tracking Technology</h3>
+<p>This site may use cookie and tracking technology depending on the features offered. Cookie and tracking technology are useful for gathering information such as browser type and operating system, tracking the number of visitors to the Site, and understanding how visitors use the Site. Cookies can also help customize the Site for visitors. Personal information cannot be collected via cookies and other tracking technology, however, if you previously provided personally identifiable information, cookies may be tied to such information. Aggregate cookie and tracking information may be shared with third parties.</p>
+<h3>Distribution of Information</h3>
+<p>I may share information with governmental agencies or other companies assisting us in fraud prevention or investigation. I may do so when: (1) permitted or required by law; or, (2) trying to protect against or prevent actual or potential fraud or unauthorized transactions; or, (3) investigating fraud which has already taken place. The information is not provided to these companies for marketing purposes.</p>
+<h3>Commitment to Data Security</h3>
+<p>Your personally identifiable information is kept secure. Only authorized employees, agents and contractors (who have agreed to keep information secure and confidential) have access to this information. All emails and newsletters from this site allow you to opt out of further mailings.</p>
+<h3>Privacy Contact Information</h3>
+<p>If you have any questions, concerns, or comments about my privacy policy you may contact me using the information below:</p>
+<p>By Phone: (228) 206-4990</p>
+<p>I reserve the right to make changes to this policy. Any changes to this policy will be posted.</p>
+			
+	</div>
+      
+          </div>
     </section>
   </Layout>
 )

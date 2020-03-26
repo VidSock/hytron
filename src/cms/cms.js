@@ -1,22 +1,15 @@
 import CMS from 'netlify-cms-app'
-/*
-import uploadcare from 'netlify-cms-media-library-uploadcare'
-import cloudinary from 'netlify-cms-media-library-cloudinary'
-*/
-
-import CapabilitiesPagePreview from './preview-templates/CapabilitiesPagePreview'
+import '../css/index.scss'
+import HomePagePreview from './preview-templates/HomePagePreview'
 import AboutPagePreview from './preview-templates/AboutPagePreview'
-import BlogPostPreview from './preview-templates/BlogPostPreview'
-import ExamplePagePreview from './preview-templates/ExamplePagePreview'
-import IndexPagePreview from './preview-templates/IndexPagePreview'
+import ArticlePreview from './preview-templates/ArticlePreview'
+import PricingPagePreview from './preview-templates/PricingPagePreview'
+import ContactPagePreview from './preview-templates/ContactPagePreview'
 
-/*
-CMS.registerMediaLibrary(uploadcare);
-CMS.registerMediaLibrary(cloudinary);
-*/
-
-CMS.registerPreviewTemplate('index', IndexPagePreview)
-CMS.registerPreviewTemplate('example', ExamplePagePreview)
+CMS.init()
+CMS.registerPreviewStyle('/styles.css')
+CMS.registerPreviewTemplate('home', HomePagePreview)
 CMS.registerPreviewTemplate('about', AboutPagePreview)
-CMS.registerPreviewTemplate('capabilities', CapabilitiesPagePreview)
-CMS.registerPreviewTemplate('blog', BlogPostPreview)
+CMS.registerPreviewTemplate('pricing', PricingPagePreview)
+CMS.registerPreviewTemplate('contact', ContactPagePreview)
+CMS.registerPreviewTemplate('blog', ArticlePreview)

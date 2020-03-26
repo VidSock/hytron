@@ -1,7 +1,8 @@
 import React from 'react'
 import { navigate } from 'gatsby-link'
-// import ScrollAnimation from 'react-animate-on-scroll'
-import { FaEnvelope } from 'react-icons/fa';
+// import { FaEnvelope } from 'react-icons/fa'
+
+
 // const Contact = class extends React.Component {
 //   render() {
 //     return (
@@ -25,7 +26,7 @@ function encode(data) {
   return formData
 }
 
-export default class Newsletter extends React.Component {
+export default class Contact extends React.Component {
   constructor(props) {
     super(props)
     this.state = {}
@@ -35,6 +36,9 @@ export default class Newsletter extends React.Component {
     this.setState({ [e.target.name]: e.target.value })
   }
 
+  handleAttachment = e => {
+    this.setState({ [e.target.name]: e.target.files[0] })
+  }
 
   handleSubmit = e => {
     e.preventDefault()
@@ -53,11 +57,10 @@ export default class Newsletter extends React.Component {
   render() {
     return (
       
-      
-        <section className="outer section">
+        <section className="section">
           <div className="container" style={{padding: '5px 0 10px 0', textAlign: 'center', maxWidth: '600px', margin: '0 auto',}}>
           
-            <div className="content innerpanel" style={{padding: '0 0 0 20px', textAlign: 'left', width: '600px',}}>
+            <div className="content innerpanel" style={{padding: '0 0 0 0', textAlign: 'left', width: '600px',}}>
 
               
 
@@ -66,7 +69,7 @@ export default class Newsletter extends React.Component {
               <form
                 name="newsletter"
                 method="post"
-                action="/contact/thanks/"
+                action="/contact/newsletter/"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
                 onSubmit={this.handleSubmit}
@@ -82,38 +85,49 @@ export default class Newsletter extends React.Component {
                   </label>
                 </div>
 
-<h3 style={{textAlign: 'center', fontSize: '1.5rem', padding: '.3rem 0 .5rem 0',}}>Join the Newsletter</h3>
+<h4 style={{textAlign: 'center', fontSize: '1.5rem', padding: '.3rem 0 .5rem 0',}}>Follow Todd</h4>
 
-<label htmlFor="email" style={{padding: '.6rem', margin: '1rem 0 1rem 1rem', textAlign: 'left', fontSize: '90%', }}>E-mail / Phone Number:</label>
+<label htmlFor="email" style={{ display: 'flex', justifyContent:'center', alignItems: 'center', padding: '0 2rem', margin: '0 auto', textAlign: 'center', fontSize: '90%', }}>Get email updates and location exclusives</label>
 
-                <div className="form" style={{lineHeight: '1rem', height: 'auto', alignItems: '', display: 'flex', flexShrink: '1', paddingTop: '.2rem',}}>
+                <div className="form" style={{lineHeight: '1rem', height: 'auto', alignItems: 'center', display: 'flex', flexShrink: '1', paddingTop: '.2rem',}}>
                 
  
-                
+                <div style={{width:'60%', padding:'0 1rem 0 0',}}>
                     <input
                       className="input font"
                       type={'email'}
                       name={'email'}
                       onChange={this.handleChange}
                       id={'email'}
-                      required={true}
-                      placeholder="555-555-1212 / your@email.com"
+                      required={false}
+                      placeholder="your@email.com"
                       style={{margin: '0 1rem 0 0', width: '100%',}}
                     />
+                    </div>
 
-                <input type="submit" value="Sign Up" className="special" style={{width: '70%', margin: '0', padding: '2rem 0', verticalAlign: 'center',}} /> <FaEnvelope style={{position: 'relative', top: '6px', left: '-30px', color: '#fff', fontSize: '190%',}} />
+                <div className="special grad"  style={{ color:'#fff', textDecoration:'none', display:'flex', justifyContent:'center', position:'relative', width:'230px', margin:'0 1rem 0 0', padding:'0 1rem 0px 1rem',}}>
+                
+<input type="submit" value="Follow Now" className="grad" style={{background:'transparent', border:'none', boxShadow:'none', color:'#fff', cursor:'pointer', float:'left', marginBottom:'0',}} />
+
+
+</div>
+                
+                
+
+                
+                
                 
                 </div>
-                <div className="font" style={{fontSize: '100%', padding: '20px 3%', textAlign: 'center',}}> <label htmlFor={'consent'}><input type="checkbox" name={'consent'} required={true} style={{transform: 'scale(2)', margin: '0 10px 0 0', background:'#ff0000', color:'#ff0000',}} /> I want to participate by email or text.</label></div>
+                <div className="font" style={{fontSize: '100%', padding: '20px 3%', textAlign: 'center',}}> <label htmlFor={'consent'}><input type="checkbox" name={'consent'} required={true} style={{transform: 'scale(2)', margin: '0 10px 0 0', background:'#ff0000', color:'#ff0000',}} /> I want to follow by email.</label></div>
                 
-<div style={{fontSize: '80%', padding: '0px 3%', textAlign: 'center',}}><a style={{textAlign: 'center', paddingTop: '0px', paddingBottom: '0', textDecoration: 'underline',}} href="/privacy">We value your privacy (no spam!) </a>
+<div style={{fontSize: '80%', padding: '0px 3%', textAlign: 'center',}}><a style={{textAlign: 'center', paddingTop: '0px', paddingBottom: '0', textDecoration: 'underline',}} href="/privacy">Privacy Policy  (no spam - unsubscribe anytime) </a>
                 </div>
               </form>
               
             </div>
           </div>
         </section>      
-
+      
     )
   }
 }

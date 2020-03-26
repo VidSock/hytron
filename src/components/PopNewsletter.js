@@ -14,15 +14,15 @@ const CustomBox = styled.div`
   height:100vh;
       
   .news-btn {
-    display: block;
-    margin: 0 auto;      
+    display: block;     
     color: #fff;  
     width: auto;
+    max-width:250px;
     height: auto; 
-    margin:0 50px;
+    margin:0 auto;
     padding:.8rem 2rem;   
     line-height: 20px;    
-    background: #DB2600;
+
     font-weight:bold;
     border: 0;
     border-radius: 3px;  
@@ -30,7 +30,7 @@ const CustomBox = styled.div`
     text-align: center;
 //     box-shadow: 0 5px 5px -5px #333;  
     transition: background 0.3s ease-in;
-    &:hover { background: #ff0000; cursor:pointer; }
+    &:hover { background:; cursor:pointer; }
   }
   .news-content, 
   .news-backdrop {
@@ -79,7 +79,7 @@ const CustomBox = styled.div`
     display: none;  
     &.active ~ .news-backdrop,
     &:checked ~ .news-backdrop {
-      background-color:#000;
+      background-color:transparent;
       width: 100vw;
       height: 100%;
       position: fixed;
@@ -97,7 +97,7 @@ const CustomBox = styled.div`
     &:checked ~ .news-content {
 	  
  opacity: 1;
-      background-color: transparent;
+//       background-color: transparent;
     max-width: 700px;
     width: 100vw;
       height: auto;
@@ -107,7 +107,7 @@ const CustomBox = styled.div`
     align-content:center;
     justify-content:center;
 	margin:0 auto;
-      top: 100px;
+      top: 60px;
       left:7%;
       right:7%;
    
@@ -160,13 +160,16 @@ const Popup = () => (
 <CustomBox className="newsletterbox" style={{display: 'flex', justifyContent: 'center', alignItems: 'center',}}>
 <div className="news-container" style={{position: 'relative',}}>
   <input id="news-toggle" type="checkbox" style={{position: 'relative',}} />
-  <label className="news-btn txtshadow shadow" htmlFor="news-toggle">Join Our Newsletter</label> 
-  <label className="news-backdrop" htmlFor="news-toggle"></label> 
+  <label className="news-btn grad txtshadow shadow" htmlFor="news-toggle" style={{textShadow:'1px 2px 2px black',}}>Follow Todd Now</label> 
+  <label className="news-backdrop" style={{zIndex:'4',}} htmlFor="news-toggle"></label> 
   
   <div className="news-content " style={{position: 'relative', zIndex: '4',}}>
   
     <label className="news-close" htmlFor="news-toggle" style={{position: 'absolute', }}><FaTimesCircle /></label>
-    <Newsletter />
+    
+ 
+    <Newsletter style={{position:'',}} />
+    
       
   </div>
         
