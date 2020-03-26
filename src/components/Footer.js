@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import { FaFacebookSquare, FaLinkedin, FaTwitterSquare, FaInstagram, FaPinterestSquare, FaYoutubeSquare } from 'react-icons/fa'
+import { FaFacebookSquare, FaLinkedin} from 'react-icons/fa'
 // import ScrollAnimation from 'react-animate-on-scroll'
 
 
@@ -32,7 +32,7 @@ const Footer = class extends React.Component {
   <li><h3 className="socialtext">We&apos;re<br />Social:</h3></li>
 <li><a className="social"  href="https://facebook.com" alt="Facebook" title="Facebook"><FaFacebookSquare /><span>Facebook</span></a></li>
 <li><a className="social" href="https://linkedin.com" alt="LinkIn" title="LinkedIn"><FaLinkedin /><span>LinkedIn</span></a></li>
-<li style={{display: 'none',}}><a className="social" href="https://twitter.com" alt="Twitter" title="Twitter"><FaTwitterSquare /><span>Twitter</span></a></li>
+
 </ul>
 
 <div style={{textAlign: 'center', margin: '2rem 0 1rem 0', justifyContent: 'center', fontSize: '90%'}}><Link to="/disclaimer/">Disclaimer</Link>  |  <Link to="/privacy/">Privacy Policy</Link>  |  <Link to="/terms/">Terms of Service</Link></div>
