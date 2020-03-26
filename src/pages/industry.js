@@ -88,7 +88,7 @@ const Gal1Page = () => {
     
 	  <CustomBox>
        <Helmet>
-          <html className="nobg" />
+          <html lang="en" className="nobg" />
     </Helmet>
     <Layout>
 

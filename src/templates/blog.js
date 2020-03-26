@@ -86,6 +86,7 @@ export default class BlogPage extends Component {
     }
 
     return (
+      <CustomBox>
       <Layout>
         <Helmet>
           <title>Blog | Todd Lambert</title>
@@ -167,6 +168,7 @@ Network
           
  
       </Layout>
+      </CustomBox>
     )
   }
 }

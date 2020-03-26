@@ -92,7 +92,7 @@ const HomePageTemplate = ({
     <Helmet>
       <title>{meta_title}</title>
       <meta name='description' content={meta_description} />
-      <html className="fullhead" />
+      <html lang="en" className="fullhead" />
     </Helmet>
     
     
