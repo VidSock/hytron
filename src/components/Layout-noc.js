@@ -6,7 +6,7 @@ import Navbar from '../components/Navbar'
 import config from '../../config'
 // import Install from '../components/Install'
 import PopContact from '../components/PopContact'
-import 'typeface-lobster-two'
+// import 'typeface-lobster-two'
 import 'typeface-hammersmith-one'
 
 import "../css/index.scss"
