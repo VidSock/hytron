@@ -11,6 +11,23 @@ $red: #ff0000;
 
 #herohead .headroom-wrapper{height:0 !important; position:relative;}
 
+.social-links{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+.social-links > div{
+  margin: 5px 15px;
+}
+.share-count{
+  text-align: center;
+}
+
+
 
 /* Box sizing rules */
 *,
