@@ -30,7 +30,7 @@
     "gatsby-remark-relative-images": "^0.2.1",
     "gatsby-remark-relative-links": "0.0.3",
     "gatsby-source-filesystem": "^2.1.35",
-    "gatsby-transformer-remark": "^2.6.32",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^2.3.2",
     "lodash": "^4.17.15",
     "lodash-webpack-plugin": "^0.11.4",
